@@ -1,7 +1,7 @@
 {
   "name": "homie-adapter",
   "display_name": "Homie",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Connect your homie (https://homieiot.github.io/) devices",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -27,10 +27,10 @@
     "lib/homie-adapter.js"
   ],
   "dependencies": {
-    "mqtt": "^4.1.0"
+    "mqtt": "^4.2.4"
   },
   "devDependencies": {
-    "@types/node": "^14.0.5",
-    "typescript": "^3.9.2"
+    "@types/node": "^14.14.6",
+    "typescript": "^4.0.5"
   }
 }
